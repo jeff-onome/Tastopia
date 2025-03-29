@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram} from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -37,15 +37,11 @@ export default function Footer() {
                         <a href="https://www.facebook.com/profile.php?id=61550344536372" className="p-2 bg-gray-700 rounded-full hover:bg-gray-600 transition">
                             <FaFacebookF size={20} />
                         </a>
+                       
                         <a href="https://www.instagram.com/try_tastopia?utm_source=qr" className="p-2 bg-gray-700 rounded-full hover:bg-gray-600 transition">
-                            <FaTwitter size={20} />
-                        </a>
-                        <a href="#" className="p-2 bg-gray-700 rounded-full hover:bg-gray-600 transition">
                             <FaInstagram size={20} />
                         </a>
-                        <a href="#" className="p-2 bg-gray-700 rounded-full hover:bg-gray-600 transition">
-                            <FaYoutube size={20} />
-                        </a>
+                       
                     </div>
                 </div>
             </div>

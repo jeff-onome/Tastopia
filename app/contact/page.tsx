@@ -63,8 +63,13 @@ export default function ContactUs() {
                 >
                     <h2 className="text-3xl font-bold text-white mb-4">Get in Touch</h2>
                     <p className="text-lg text-white/70 mb-2">📍 123 Culinary St, Food City</p>
-                    <p className="text-lg text-white/70 mb-2">📞 08151920436</p>
-                    <p className="text-lg text-white/70">📧 contact@tastopia.com</p>
+                    <p className="text-lg text-white/70 mb-2">
+                            📞 <a href="tel:08151920436" className="hover:text-white">08151920436</a>
+                    </p>
+                    <p className="text-lg text-white/70">
+                        📧 <a href="mailto:contact@tastopia.com" className="hover:text-white">contact@tastopia.com</a>
+                    </p>
+
                 </motion.div>
             </div>
         </section>
