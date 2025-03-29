@@ -23,7 +23,7 @@ export default function UnderConstruction() {
                     height={300} 
                 />
                 <h1 className="text-4xl font-bold mt-6">Service Under Construction</h1>
-                <p className="text-lg mt-2">We're working on this page. Check back soon!</p>
+                <p className="text-lg mt-2">We&apos;re working on this page. Check back soon!</p>
             </motion.div>
         </div>
         <Footer />

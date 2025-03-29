@@ -4,7 +4,9 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-export default function Navbar() {
+import Chef from '../public/assets/chef.jpeg'
+
+export default function ChefSection() {
 
     return (
         <>
@@ -18,7 +20,7 @@ export default function Navbar() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <Image src={require('../public/assets/chef.jpeg')} alt="Chef at work" width={500} height={500} className="rounded-lg shadow-lg" />
+                    <Image src={Chef} alt="Chef at work" width={500} height={500} className="rounded-lg shadow-lg" />
                 </motion.div>
                 
                 {/* Text on the right with animation */}

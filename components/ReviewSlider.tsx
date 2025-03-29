@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import Image from 'next/image';
 import { MdArrowBack, MdArrowForward } from 'react-icons/md';
-import { useEffect, useRef } from 'react';
+import {  useRef } from 'react';
 import { useDrag } from 'react-use-gesture';
 
 const reviews = [

@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
-import { motion } from 'framer-motion';
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import { motion } from "framer-motion";
 
 export default function ContactUs() {
     return (
@@ -17,7 +17,7 @@ export default function ContactUs() {
             >
                 <h1 className="text-4xl font-bold text-white mb-4">Contact Us</h1>
                 <p className="text-lg text-white/70 max-w-2xl mx-auto">
-                    We'd love to hear from you! Reach out to us with any questions, feedback, or reservations.
+                    We&apos;d love to hear from you! Reach out to us with any questions, feedback, or reservations.
                 </p>
             </motion.div>
 
@@ -63,7 +63,7 @@ export default function ContactUs() {
                 >
                     <h2 className="text-3xl font-bold text-white mb-4">Get in Touch</h2>
                     <p className="text-lg text-white/70 mb-2">📍 123 Culinary St, Food City</p>
-                    <p className="text-lg text-white/70 mb-2">📞 +1 (234) 567-890</p>
+                    <p className="text-lg text-white/70 mb-2">📞 08151920436</p>
                     <p className="text-lg text-white/70">📧 contact@tastopia.com</p>
                 </motion.div>
             </div>
