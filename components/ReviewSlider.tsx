@@ -7,11 +7,15 @@ import { MdArrowBack, MdArrowForward } from 'react-icons/md';
 import { useDrag } from 'react-use-gesture';
 
 const reviews = [
-    { id: 1, name: "John Doe", image: "/assets/user1.jpg", review: "Absolutely amazing! The food was delicious and the service was outstanding.", rating: 5 },
-    { id: 2, name: "Jane Smith", image: "/assets/user2.jpg", review: "A wonderful experience! The atmosphere was great and the dishes were fantastic.", rating: 5 },
-    { id: 3, name: "Mark Wilson", image: "/assets/user3.jpg", review: "Top-notch service and mouthwatering meals. Highly recommend!", rating: 5 },
-    { id: 4, name: "Emily Brown", image: "/assets/user4.jpg", review: "One of the best restaurants I've visited. A perfect place for food lovers!", rating: 5 },
-    { id: 5, name: "Michael Johnson", image: "/assets/user5.jpg", review: "Delicious meals and great ambiance. Highly recommend visiting!", rating: 5 }
+    { id: 1, name: "John Doe", image: "/assets/user1.jpg", review: "One too much I really like everything .My sister set like the settings and everything", rating: 5 },
+    { id: 2, name: "Egyptian king", image: "/assets/user2.jpg", review: "Make sense 😊😊😊 I just Dey eat finish Especially the shawarma 💯", rating: 5 },
+    { id: 3, name: "Mrs joy", image: "/assets/user3.jpg", review: "Tastopia is definitely going places", rating: 5 },
+    { id: 4, name: "Mrs Bright", image: "/assets/user4.jpg", review: "Thank you for the wonderful meal I really enjoyed it", rating: 5 },
+    { id: 6, name: "Mrs Amiri", image: "/assets/user5.jpg", review: "My husband finished everything Said it was too sweet and he wants you to bring more", rating: 5 },
+    { id: 7, name: "Mummy ayo", image: "/assets/user5.jpg", review: "Where have you been all my life ? It’s was very delicious and nice service", rating: 5 },
+    { id: 8, name: "Vicky", image: "/assets/user5.jpg", review: "Bro take me back to yesterday abeg Thanks so much I received the biggest love from you It’s was very delicious", rating: 5 },
+    { id: 9, name: "Shalokpe", image: "/assets/user5.jpg", review: "I just finished consuming it 🙂, and the taste us top notch 💃🤓 .I lick my hand and the foil just to show how sweet it was", rating: 5 },
+    { id: 10, name: "Eli-b", image: "/assets/user5.jpg", review: "It was very delicious", rating: 5 },
 ];
 
 export default function Reviews() {
