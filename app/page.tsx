@@ -1,3 +1,7 @@
+"use client"
+import React from 'react'
+
+
 import Navbar from "@/components/Navbar";
 import ChefSection from "@/components/ChefSection";
 import BestFood from "@/components/BestFood";
