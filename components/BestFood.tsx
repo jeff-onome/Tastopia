@@ -23,13 +23,21 @@ export default function BestCategoryMenu() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: index * 0.2 }}
                     >
-                        <Image 
-                            src={category.image}
-                            alt={category.name} 
-                            width={300} 
-                            height={300} 
-                            className="rounded-lg shadow-lg w-full h-64 object-cover"
-                        />
+                       <motion.div 
+                            initial={{ scale: 1 }} 
+                            whileHover={{ scale: 1.1 }} 
+                            transition={{ duration: 0.3 }}
+                            className="rounded-lg shadow-lg overflow-hidden"
+                        >
+                            <Image 
+                                src={category.image}
+                                alt={category.name} 
+                                width={300} 
+                                height={300} 
+                                className="w-full h-64 object-cover"
+                            />
+                        </motion.div>
+
                         <p className="mt-4 text-lg font-semibold">{category.name}</p>
                     </motion.div>
                 ))}

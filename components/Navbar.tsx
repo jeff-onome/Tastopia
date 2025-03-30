@@ -27,7 +27,7 @@ export default function Navbar() {
                     transition={{ duration: 0.5, ease: 'easeOut' }}
                     className="text-xl font-bold text-white"
                 >
-                    Tastopia
+                   <Link href='/'>Tastopia</Link>
                 </motion.h1>
 
                 {/* Mobile Menu Button */}

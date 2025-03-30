@@ -30,7 +30,7 @@ export default function MeetOurChefs() {
                             height={300} 
                             className="rounded-lg w-full h-64 object-cover"
                         />
-                        <h3 className="mt-4 text-xl font-semibold">{chef.name}</h3>
+                        <h3 className="mt-4 text-xl font-semibold text-black">{chef.name}</h3>
                         <p className="text-lg text-gray-700 font-medium">{chef.qualification}</p>
                     </motion.div>
                 ))}
